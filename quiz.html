@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz-app</title>
+</head>
+<body>
+               
+    <div class="container">
+
+        <h1>
+              <!-- <img width="40px" src="https://static-00.iconduck.com/assets.00/waving-hand-default-emoji-510x512-y8yjikds.png"
+            alt="Waving Hand Emoji"> -->
+            <script>
+            document.write(" Hi " + localStorage.getItem('names'))
+        </script></h1>
+            <h1>HTML QUIZ APPLICATION</h1>
+
+            <h3 id="timer">
+                
+            </h3>
+
+            <p id="question">
+
+            </p>
+
+            <div>
+                <input onclick="btnClick()" name="ans" value="1"  type="radio"  id="inp1">
+                <label for="inp1" id="opt1"></label>
+            </div>
+            <div>
+                <input onclick="btnClick()" type="radio" name="ans" value="2"  id="inp2">
+                <label for="inp2" id="opt2"></label>
+            </div>
+            <div>
+                <input onclick="btnClick()" type="radio" name="ans" value="3" id="inp3">
+                <label for="inp3" id="opt3"></label>
+            </div>
+            <br>
+            <button id="btn" disabled onclick="nextQuestion()">NEXT</button>
+
+            <center><div id="result" style="display:none;">
+                <h2 id="result-text"></h2>
+                <img id="result-gif" src="" alt="Result GIF" style="width:300px;height:300px;">
+            </div>
+        </center>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

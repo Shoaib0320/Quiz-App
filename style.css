@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 280px;
+    height: 310px;
+    margin: auto;
+    padding: 25px 29px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.container button{
+    background-color: rgb(74, 129, 165);
+    border: 1px solid rgb(74, 129, 165);
+    margin: 5px 10px;
+    padding: 5px 72px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.inputs{
+    margin: 15px 10px;
+    padding: 5px 10px;
+}
